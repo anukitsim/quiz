@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+  font-family: 'lato', sans-serif;
+  color: white;
+  background: #252c49;
+}
+/* Intro section */
+.intro{
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+/* Need to add a div to display the final product image
+Will pop after submit buttons is clicked
+ */
+.result{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  background: transparent;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 5px;
+
+}
+/* Make result div dissappear */
+.none{
+  display: none;
+}
+
+/*quiz section */
+.quiz{
+  max-width: 480px;
+  margin: 0 auto;
+
+}
+.question{
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.answer{
+  background: #223150;
+  border: 1.5px solid #24466a;
+  border-radius: 10px;
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+
+}
+.answer:hover{
+  background: #2a3c5f;
+}
+label{
+  margin-top: 20px;
+
+}
+.btn{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+.button{
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background: linear-gradient(90deg, #396afc, 0%, #2948ff 100%);
+  box-shadow: 0px 10px 15px hsla(231, 100%, 58%, 0.2);
+
+}
+.button:hover{
+  box-shadow: 0px 10px 15px hsla(225, 97%, 61%, 0.2);
+
+}
+img{
+  width: 350px;
+  
+  border-radius: 10px;
+}
