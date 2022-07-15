@@ -1,13 +1,4 @@
-// let delay = n => new Promise(r => setTimeout(r, n));
-//
-// async function typeWriter(div, txt) {
-//   for (let char of txt) {
-//     div.innerHTML += char;
-//     await delay(50);
-//   }
-// }
-//
-// typeWriter(document.querySelector('#type'), 'hello there');
+
 
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
