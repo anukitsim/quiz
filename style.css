@@ -2,9 +2,22 @@
 
 body{
   font-family: 'lato', sans-serif;
-  color: white;
-  background: #252c49;
+  color: rgb(0, 0, 0);
+  background: #acacac;
+  
 }
+
+
+button{
+  color: white;
+  background: black;
+  border-radius: 10rem;
+  padding: 0 1.2rem 0.1rem 1.2rem;
+  border: none;
+  height: 30px;
+}
+
+
 /* Intro section */
 .intro{
   text-align: center;
@@ -13,6 +26,7 @@ body{
   padding: 5px;
   font-size: 25px;
   font-weight: lighter;
+  
 }
 /* Need to add a div to display the final product image
 Will pop after submit buttons is clicked
@@ -43,8 +57,8 @@ Will pop after submit buttons is clicked
   margin: 0 auto;
 }
 .answer{
-  background: #223150;
-  border: 1.5px solid #24466a;
+  background: transparent;
+  border: 1.5px solid rgb(255, 255, 255);
   border-radius: 10px;
   padding: 20px;
   display: block;
@@ -52,7 +66,7 @@ Will pop after submit buttons is clicked
 
 }
 .answer:hover{
-  background: #2a3c5f;
+  background: transparent;
 }
 label{
   margin-top: 20px;
@@ -70,7 +84,7 @@ label{
   border-radius: 5px;
   border: 0px;
   color: white;
-  background: linear-gradient(90deg, #396afc, 0%, #2948ff 100%);
+  background: linear-gradient(90deg, #acacaa, 0%, #acacac 100%);
   box-shadow: 0px 10px 15px hsla(231, 100%, 58%, 0.2);
 
 }
@@ -80,6 +94,6 @@ label{
 }
 img{
   width: 350px;
+  margin-left: 50px;
   
-  border-radius: 10px;
 }

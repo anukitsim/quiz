@@ -11,7 +11,7 @@
 
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
-const images = ["Claw.png", "Cosmo.png", "Cross2.png", "V.png", "vU2.png", "SOH.png", "tear.png", "tear.png", " "];
+const images = ["img/Claw.png", "img/Cosmo.png", "img/Cross2.png", "img/V.png", "img/vU2.png", "img/SOH.png", "img/tear.png", "img/tear.png", ];
 
 
 form.addEventListener('submit', e=> {
@@ -25,16 +25,16 @@ form.addEventListener('submit', e=> {
 
 
   // Decide what product to show
-  if (userAnswers[0] === 'A' && userAnswers[1] === 'A' && userAnswers[2] === 'A' && userAnswers[3] === 'A' && userAnswers[4] === 'A') {
+  if (userAnswers[0] === 'A' && userAnswers[1] === 'A' && userAnswers[2] === 'A') {
     showProductImage(images[0]);
   }
-  else if (userAnswers[0] === 'B' && userAnswers[1] === 'B' && userAnswers[2] === 'B' && userAnswers[3] === 'B' && userAnswers[4] === 'B') {
+  else if (userAnswers[0] === 'B' && userAnswers[1] === 'B' && userAnswers[2] === 'B') {
     showProductImage(images[1]);
   }
-  else if (userAnswers[0] === 'A' && userAnswers[1] === 'B' && userAnswers[2] === 'A' && userAnswers[3] === 'B' && userAnswers[4] === 'A') {
+  else if (userAnswers[0] === 'A' && userAnswers[1] === 'B' && userAnswers[2] === 'A') {
     showProductImage(images[3]);
   }
-  else if (userAnswers[0] === 'A' && userAnswers[1] === 'B' && userAnswers[2] === 'B' && userAnswers[3] === 'B' && userAnswers[4] === 'B') {
+  else if (userAnswers[0] === 'A' && userAnswers[1] === 'B' && userAnswers[2] === 'B') {
     showProductImage(images[4]);
   }
 
@@ -45,4 +45,6 @@ function showProductImage(imagePath){
   document.getElementById("product-image").src = imagePath;
 
 }
-showProductImage(images[z]);
+showProductImage(images[0]);
+
+
